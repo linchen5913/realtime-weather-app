@@ -81,7 +81,6 @@ const useWeatherAPI = ({ locationName, cityName, authorizationKey }) => {
   }, [authorizationKey, cityName, locationName]);
 
   useEffect(() => {
-    console.log("fetching data after the page loaded");
     fetchData();
   }, [fetchData]);
 
